@@ -8,9 +8,11 @@ y0 = -1
 z0 = 0
 
 def yd(x, z):
+    # one of the derivatives
     return 4 * x + z * z
     
 def zd(x, y):
+    # one of the derivatives
     return - 5 * x + y * y
 
 ############################################################
